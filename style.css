@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url('background.jpg');
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tan;
+    font-size: 65px;
+    padding: 15px;
+}
+
+#wrapper {
+    background-color: steelblue;
+    color: tan;
+    padding: 5px;
+}
+
+#choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#resulttext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset {
+    padding: 5px;
+    font-size: 25px;
+    background-color: tan;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
